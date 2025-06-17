@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تواصل معنا - نبض الحرف</title>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+      color: #333;
+    }
+    h1 {
+      color: #b30059;
+      margin-bottom: 1rem;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: right;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-family: 'Cairo', sans-serif;
+    }
+    input::placeholder, textarea::placeholder {
+      color: #999;
+      font-style: italic;
+    }
+    button {
+      background-color: #b30059;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #8c0047;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 1.5rem;
+      color: #b30059;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>تواصل معنا</h1>
+  <form action="mailto:Abdu1236861@gmail.com" method="post" enctype="text/plain">
+    <label for="name">الاسم:</label>
+    <input type="text" id="name" name="الاسم" required placeholder="اكتب اسمك الكامل هنا" />
+
+    <label for="commitment">رسالة الالتزام:</label>
+    <textarea id="commitment" name="رسالة الالتزام" rows="3" required placeholder="أتعهد باستخدام هذا الموقع بطريقة مسؤولة وأوافق على احترام الخصوصية وعدم نشر أي محتوى مخالف أو مسيء."></textarea>
+
+    <label for="description">الوصف:</label>
+    <textarea id="description" name="الوصف" rows="4" placeholder="يمكنك كتابة تفاصيل إضافية أو شرح للرسالة هنا"></textarea>
+
+    <button type="submit">إرسال</button>
+  </form>
+
+  <a class="back-link" href="index.html">العودة إلى الصفحة الرئيسية</a>
+</body>
+</html>
