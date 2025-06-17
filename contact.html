@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تواصل معنا - نبض الحرف</title>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 2rem 1rem;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #fef6f9;
+      padding: 1.5rem 1rem;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #b30059;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: right;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      color: #b30059;
+      text-align: right;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      resize: vertical;
+      font-family: 'Cairo', sans-serif;
+    }
+    textarea {
+      height: 120px;
+    }
+    button {
+      background-color: #b30059;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-family: 'Cairo', sans-serif;
+    }
+    button:hover {
+      background-color: #8c0047;
+    }
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>تواصل معنا</h1>
+  </header>
+
+  <form action="mailto:Abdu1236861@gmail.com" method="post" enctype="text/plain">
+    <label for="name">الاسم الكامل:</label>
+    <input type="text" id="name" name="name" placeholder="اكتب اسمك هنا" required />
+
+    <label for="email">البريد الإلكتروني:</label>
+    <input type="email" id="email" name="email" placeholder="example@mail.com" required />
+
+    <label for="message">الرسالة:</label>
+    <textarea id="message" name="message" placeholder="اكتب رسالتك هنا..." required></textarea>
+
+    <button type="submit">إرسال</button>
+  </form>
+
+  <div class="footer">
+    تم الإنشاء بإبداع عبدالمؤمن الدويري ورفيق الحرف النابض 🤍
+  </div>
+
+</body>
+                    </html>
